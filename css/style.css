@@ -1,0 +1,154 @@
+body {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    margin: 0 166px;
+}
+
+
+/* header start */
+.header {
+    height: 100vh;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-line {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-item {
+    margin-right: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    transition: color .3s linear;
+}
+
+.nav-item:hover {
+    color: #d81d1d;
+
+}
+
+.cart {
+    padding-right: 10px;
+    height: 50px;
+    position: relative;
+    border-right: 1px solid #fff;
+}
+
+.cart-img {
+    position: absolute;
+    top: 18px;
+    right: 20px;
+}
+
+.num {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color .3s linear;
+}
+
+.num:hover {
+    color: #d81d1d;
+}
+
+.phone-txt {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.phone-holder {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    background-color: #ff7400;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+    transition: background-color .2s linear;
+}
+
+.button:hover {
+    background-color: #894b17;
+}
+
+
+.header-down {
+    position: relative;
+}
+
+
+.header-title {
+    margin-top: 222px;
+    position: absolute;
+    left: 0;
+    color: #D67E35;
+    font-family: 'Tinos', serif;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.header-subtitle {
+    font-size: 80px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.header-suptitle {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Open-sans', 'sans-serif';
+}
+
+.header-suptitle:after {
+    height: 2px;
+    width: 61px;
+    position: absolute;
+    content: ' ';
+    background-color: #C4C4C4;
+    top: 167px;
+    left: 88px;
+}
+
+.header-suptitle:before {
+    height: 2px;
+    width: 61px;
+    position: absolute;
+    content: ' ';
+    background-color: #C4C4C4;
+    top: 167px;
+    left: 331px;
+}
+
+.header-button {
+    background-color: #ff7400;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 14px 28px;
+    color: #fff;
+    font-family: 'Open-sans', 'sans-serif';
+    text-decoration: none;
+    transition: background-color .2s linear;
+}
+
+.header-button:hover {
+    background-color: #894b17;
+}
+
+
+/* header end */
