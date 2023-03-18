@@ -161,7 +161,7 @@ body {
 .card {
     margin-top: -100px;
     margin-right: 31px;
-    padding: 0 10px;
+    padding: 10px 10px;
     width: 349px;
     box-shadow: 10px 10px 40px 20px #0000001A;
     background-color: #fff;
@@ -201,3 +201,56 @@ body {
 }
 
 /* cards-end */
+
+/* history start */
+.history {
+    margin-top: 166px;
+}
+
+.history-title {
+    width: 444px;
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    color: #2C2C2C;
+    text-align: center;
+}
+
+.history-title span {
+    color: #BC9060;
+}
+
+.history-desc {
+    margin-top: 21px;
+    width: 444px;
+    font-size: 16px;
+    color: #656363;
+    text-align: center;
+}
+
+.history-number { 
+    margin-top: 40px;
+    display: flex;
+    width: 444px;
+    justify-content: center;
+}
+
+.number-item{
+    margin-top: 40px;
+    margin-right: 60px;
+    font-size: 40px;
+    text-align: center;
+    color: #BC9060;
+}
+
+.number-item:last-child {
+    margin-right: 0;
+}
+
+.number-item span {
+    display: block;
+    color: #656363;
+    font-size: 20px;
+}
+
+/* history end */
