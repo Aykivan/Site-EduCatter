@@ -205,6 +205,7 @@ body {
 /* history start */
 .history {
     margin-top: 166px;
+    padding-bottom: 200px;
 }
 
 .history-title {
@@ -228,14 +229,14 @@ body {
     text-align: center;
 }
 
-.history-number { 
+.history-number {
     margin-top: 40px;
     display: flex;
     width: 444px;
     justify-content: center;
 }
 
-.number-item{
+.number-item {
     margin-top: 40px;
     margin-right: 60px;
     font-size: 40px;
@@ -253,4 +254,206 @@ body {
     font-size: 20px;
 }
 
+.history-holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.history-images {
+    position: relative;
+    margin: 0 166px;
+}
+
+.images-1 {
+    position: absolute;
+    z-index: 0;
+    top: 5px;
+    left: -500px;
+}
+
+.images-2 {
+    position: absolute;
+    z-index: 3;
+    top: -20px;
+    left: -295px;
+}
+
+.images-3 {
+    position: absolute;
+    z-index: 2;
+    top: 150px;
+    left: -130px;
+}
+
 /* history end */
+
+/* black-block start */
+.black-block {
+    padding: 80px 0;
+    background-image: url(../img/black-bg.jpg);
+}
+
+.left-title {
+    margin-bottom: 20px;
+    font-family: 'Tinos', serif;
+    font-size: 52px;
+    font-weight: 400;
+    color: #D67E34;
+}
+
+.left-txt {
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Open-sans', 'sans-serif';
+}
+
+.right-btn {
+    background-color: #ff7400;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+    transition: background-color .2s linear;
+}
+
+.right-btn:hover {
+    background-color: #894b17;
+}
+
+.black-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* black-block end */
+
+/* dishes start */
+.dishes-title {
+    padding-top: 130px;
+    margin-bottom: 130px;
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    color: #2C2C2C;
+    text-align: center;
+}
+
+.dishes-title span {
+    color: #D67E34;
+}
+
+.pizza-burgers {
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.pizza {
+    margin-right: 20px;
+}
+
+.burger-item {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.burger-txt {
+    margin-left: 20px;
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #2C2C2C;
+}
+
+/* dishes end */
+
+/* menu start */
+.menu {
+    padding-bottom: 226px;
+    background-image: url(../img/menu-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu-title {
+    padding-top: 100px;
+    padding-bottom: 140px;
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+
+.menu-items {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.menu-item {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    margin-right: 20px;
+    width: 30%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.menu-item:last-child{
+    margin-right: 0;
+}
+
+.menu-images {
+    position: relative;
+}
+
+.price-img {
+    position: absolute;
+    bottom: 0;
+    right: 32px;
+}
+
+.price-420 {
+    position: absolute;
+    bottom: 32px;
+    right: 56px;
+    font-weight: 400;
+    font-size: 30px;
+    color: #fff;
+}
+
+.menu-txt {
+    padding-top: 22px;
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+}
+
+.menu-sub-txt {
+    padding-top: 17px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    font-family: 'Open-sans', 'sans-serif';
+}
+
+.menu-btn {
+    background-color: #ff7400;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 67px;
+    font-weight: 700;
+    transition: background-color .2s linear;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.menu-btn:hover {
+    background-color: #894b17;
+}
+/* menu end */
