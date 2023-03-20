@@ -402,7 +402,7 @@ body {
     text-align: center;
 }
 
-.menu-item:last-child{
+.menu-item:last-child {
     margin-right: 0;
 }
 
@@ -413,13 +413,13 @@ body {
 .price-img {
     position: absolute;
     bottom: 0;
-    right: 32px;
+    right: 82px;
 }
 
 .price-420 {
     position: absolute;
     bottom: 32px;
-    right: 56px;
+    right: 106px;
     font-weight: 400;
     font-size: 30px;
     color: #fff;
@@ -456,4 +456,141 @@ body {
 .menu-btn:hover {
     background-color: #894b17;
 }
+
 /* menu end */
+
+/* coment start */
+.coment {
+    padding-bottom: 139px;
+    padding-top: 104px;
+    background-color: #E5E5E5;
+}
+
+.coment-txt {
+    margin: 0 auto;
+    max-width: 920px;
+    font-family: 'Open-sans', 'sans-serif';
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.coment-image {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.coment-img {
+    border-radius: 50px;
+}
+
+.coment-type {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+.coment-name {
+    padding-top: 9px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* coment end */
+
+/* galary start */
+.galary-title {
+    padding-top: 110px;
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    color: #2C2C2C;
+    text-align: center;
+}
+
+.galary-title span {
+    color: #D67E34;
+}
+
+.galary-content {
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+.galary-left {
+    margin-right: 20px;
+}
+
+.galary-up,
+.galary-down {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* galary end */
+
+/* cook start */
+.cook-title {
+    padding-top: 110px;
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    color: #2C2C2C;
+    text-align: center;
+}
+
+.cook-title span {
+    color: #D67E34;
+}
+
+.cook-image {
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+.cook-image img {
+    margin-right: 20px;
+}
+
+.cook-image img:last-child {
+    margin-right: 0;
+}
+
+/* cook end */
+
+/* footer start */
+.footer {
+    height: 100vh;
+    margin: 100px 0 0 0;
+    background-image: url(../img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* footer end */
+
+@media (max-width: 1500px) {
+    .galary-content {
+        display: block;
+    }
+
+    .img-gal,
+    .galary-up,
+    .galary-down {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .img-gal {
+        margin-bottom: 20px;
+    }
+
+    .galary-left {
+        margin-right: 0;
+    }
+}
